@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title></title>
+	<link rel="stylesheet" type="text/css" href="Palindrome.css" />
+	<script type="text/javascript" src="Palindrome.js"></script>
+</head>
+<body>
+	<div id="fullHeightContainer">
+		<div id="titleContainer">
+			<h1>Palindrome Analyzer</h1>
+		</div>
+		<div id="mainContainer">
+			<label for="userInput" id="userInputLabel">Enter text here: </label>
+			<input id="userInput" type="text" pattern="[A-Za-z ]+" title="Letters Only" />
+			<button type="button" onclick="checkPalindrome(document.getElementById('userInput').value)">Check for Palindrome</button>
+		</div>
+		<div id="resultContainer">
+			<label id="answerLabel"></label>
+		</div>
+	</div>
+</body>
+</html>
