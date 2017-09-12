@@ -17,5 +17,6 @@ div {
 	background: linear-gradient(rgba(114, 191, 147, 1), rgba(114, 191, 147, 0));
 	max-width: 800px;
 	min-width: 600px;
-	border-radius: 30px;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
 }
