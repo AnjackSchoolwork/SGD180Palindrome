@@ -1,8 +1,16 @@
 ﻿body {
 	text-align: center;
+	background-color: #264031
 }
 
 div {
 	margin: 0 auto;
 	padding: 0;
+}
+
+#fullHeightContainer {
+	height: 95vh;
+	background-color: #72BF93;
+	max-width: 800px;
+	min-width: 600px;
 }
